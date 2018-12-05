@@ -1,0 +1,22 @@
+{
+  "name": "ZLGImageRecognizeSDK",
+  "version": "0.1.0",
+  "summary": "A short description of ZLGImageRecognizeSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ag970898664@163.com/ZLGImageRecognizeSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ag970898664@163.com": "zhang.liguo@icerno.com"
+  },
+  "source": {
+    "git": "https://github.com/ag970898664@163.com/ZLGImageRecognizeSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZLGImageRecognizeSDK/Classes/**/*"
+}

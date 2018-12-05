@@ -1,0 +1,6 @@
+framework module ZLGImageRecognizeSDK {
+  umbrella header "ZLGImageRecognizeSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

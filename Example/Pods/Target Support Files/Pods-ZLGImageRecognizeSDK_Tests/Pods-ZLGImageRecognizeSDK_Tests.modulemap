@@ -1,0 +1,6 @@
+framework module Pods_ZLGImageRecognizeSDK_Tests {
+  umbrella header "Pods-ZLGImageRecognizeSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

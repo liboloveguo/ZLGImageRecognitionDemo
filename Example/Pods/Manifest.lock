@@ -1,0 +1,16 @@
+PODS:
+  - ZLGImageRecognizeSDK (0.1.0)
+
+DEPENDENCIES:
+  - ZLGImageRecognizeSDK (from `../`)
+
+EXTERNAL SOURCES:
+  ZLGImageRecognizeSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZLGImageRecognizeSDK: db6c751dd80bc85fe3acedc1b84d32e8289f217e
+
+PODFILE CHECKSUM: c8592d7ba2c9fd08de737cb70aa1498f0345f08d
+
+COCOAPODS: 1.6.0.beta.2
