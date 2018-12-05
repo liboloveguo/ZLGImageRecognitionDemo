@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZLGImageRecognition.h"
 
 FOUNDATION_EXPORT double ZLGImageRecognizeSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZLGImageRecognizeSDKVersionString[];

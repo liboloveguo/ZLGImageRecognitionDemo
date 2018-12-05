@@ -319,10 +319,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZLGImageRecognizeSDK_Example/Pods-ZLGImageRecognizeSDK_Example-frameworks.sh",
+				"${PODS_ROOT}/../../ZLGImageRecognizeSDK/Classes/framework/AipBase.framework",
+				"${PODS_ROOT}/../../ZLGImageRecognizeSDK/Classes/framework/AipOcrSdk.framework",
+				"${PODS_ROOT}/../../ZLGImageRecognizeSDK/Classes/framework/IdcardQuality.framework",
 				"${BUILT_PRODUCTS_DIR}/ZLGImageRecognizeSDK/ZLGImageRecognizeSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AipBase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AipOcrSdk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IdcardQuality.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLGImageRecognizeSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,22 +1,22 @@
 {
   "name": "ZLGImageRecognizeSDK",
-  "version": "0.1.0",
-  "summary": "A short description of ZLGImageRecognizeSDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ag970898664@163.com/ZLGImageRecognizeSDK",
+  "version": "0.0.1",
+  "summary": "ZLGImageRecognizeSDK ceshi shiyong",
+  "homepage": "https://github.com/liboloveguo/ZLGImageRecognitionDemo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ag970898664@163.com": "zhang.liguo@icerno.com"
+    "liboloveguo": "ag970898664@163.com"
   },
   "source": {
-    "git": "https://github.com/ag970898664@163.com/ZLGImageRecognizeSDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/liboloveguo/ZLGImageRecognitionDemo.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZLGImageRecognizeSDK/Classes/**/*"
+  "source_files": "ZLGImageRecognizeSDK/Classes/*.{h,m}",
+  "vendored_frameworks": "ZLGImageRecognizeSDK/Classes/framework/*.{framework}"
 }
