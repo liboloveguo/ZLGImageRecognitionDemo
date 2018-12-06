@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CE63F1A00236063B95EBF6CBDC61398 /* ZLGImageRecognizeSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F98E032AC99012621B1CA35AB96C8C /* ZLGImageRecognizeSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FFC0C11687770E0F532B5C5759A8C2D /* ZLGImageRecognition.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8E08B4CCA4FCD486736B7EF8D8AC8C /* ZLGImageRecognition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1169881B4E837D5529F8DD9EC3AF5A2F /* ZLGImageRecognizeSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D49CFB8D53469F48D434446490419CAD /* ZLGImageRecognizeSDK-dummy.m */; };
+		0CE63F1A00236063B95EBF6CBDC61398 /* ZLGImageRecognizeSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A4AB96C777B47A5BD925C81D6ACFFC /* ZLGImageRecognizeSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FFC0C11687770E0F532B5C5759A8C2D /* ZLGImageRecognition.h in Headers */ = {isa = PBXBuildFile; fileRef = E6FC7D498607E2A58E3BEFAFAD1C0CDE /* ZLGImageRecognition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1169881B4E837D5529F8DD9EC3AF5A2F /* ZLGImageRecognizeSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA642A8AE42D8AE7DADEF119B5A524 /* ZLGImageRecognizeSDK-dummy.m */; };
 		11749F84D27F1C99AE4E39815DEEF326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		1338622CA8F24AFD9C31FE12EE87151D /* ZLGImageRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = EE29510B7668418EE7C9B43428E18430 /* ZLGImageRecognition.m */; };
+		1338622CA8F24AFD9C31FE12EE87151D /* ZLGImageRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = E83784D7A1444E8F1A62B513CB49CB2E /* ZLGImageRecognition.m */; };
 		1AFEEDD1BFCD51F05EBA20A7DE27BE5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		23221EC1D6C40B5E599A1DD786F607BA /* Pods-ZLGImageRecognizeSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F802E29CDFE5CDA9EF2C12286704DB0F /* Pods-ZLGImageRecognizeSDK_Example-dummy.m */; };
 		3794275C19743B29E655E1DB401D4321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
@@ -38,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		036AED5B1A84B0453FC64CDF7DA1C370 /* ZLGImageRecognizeSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLGImageRecognizeSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		06E9703A4ADB86D814458DD72C4D1632 /* Pods-ZLGImageRecognizeSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLGImageRecognizeSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		0B559B4CE9D47E52ABA09306C1F2B14A /* Pods-ZLGImageRecognizeSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLGImageRecognizeSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0D8F1A42012CF74DC385A5C2132F2BA3 /* Pods-ZLGImageRecognizeSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLGImageRecognizeSDK_Example.modulemap"; sourceTree = "<group>"; };
@@ -46,32 +45,30 @@
 		2043736C73FF52AB5EF354B21B5071F9 /* ZLGImageRecognizeSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZLGImageRecognizeSDK.framework; path = ZLGImageRecognizeSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC945D842ECC338B79F96028D53E478 /* Pods-ZLGImageRecognizeSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLGImageRecognizeSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		3B22326010DDFC0952B4F8D5B5CF975B /* Pods_ZLGImageRecognizeSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZLGImageRecognizeSDK_Example.framework; path = "Pods-ZLGImageRecognizeSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42EBFAAF2CB0F7E8FD9B19537C4B99F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		48324C5474CE09A153F48CB1BB0F9164 /* Pods-ZLGImageRecognizeSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLGImageRecognizeSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		4DDD6689A525F8C24212EBBA7F2B4286 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		59A4AB96C777B47A5BD925C81D6ACFFC /* ZLGImageRecognizeSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLGImageRecognizeSDK-umbrella.h"; sourceTree = "<group>"; };
 		61ACAE08281C957893918E0435953CCF /* Pods-ZLGImageRecognizeSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLGImageRecognizeSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6271F2C521093B2398FA7606C4FDAE24 /* Pods-ZLGImageRecognizeSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLGImageRecognizeSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6801BF4934B3D4B73B5E97851CB9C2D9 /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipBase.framework; path = ZLGImageRecognizeSDK/Classes/framework/AipBase.framework; sourceTree = "<group>"; };
 		6888BA1992DB57541668FA6993ACAF78 /* Pods-ZLGImageRecognizeSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLGImageRecognizeSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6962D54A6633EEB9A9398DA462F5210F /* Pods_ZLGImageRecognizeSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZLGImageRecognizeSDK_Tests.framework; path = "Pods-ZLGImageRecognizeSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7164835C00A5655AC31DA06481B24B2E /* Pods-ZLGImageRecognizeSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLGImageRecognizeSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		75F98E032AC99012621B1CA35AB96C8C /* ZLGImageRecognizeSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLGImageRecognizeSDK-umbrella.h"; sourceTree = "<group>"; };
-		886926FEAD5A59C7203F7781336FC8D1 /* ZLGImageRecognizeSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLGImageRecognizeSDK-prefix.pch"; sourceTree = "<group>"; };
-		A0CD8147D1F179E1E9EDB4034F917E5F /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipOcrSdk.framework; path = ZLGImageRecognizeSDK/Classes/framework/AipOcrSdk.framework; sourceTree = "<group>"; };
+		75A2BDF65F2175F87B14F1BC590AEF44 /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipBase.framework; path = ZLGImageRecognizeSDK/Classes/framework/AipBase.framework; sourceTree = "<group>"; };
+		90D900FEB7831E2229488B4D50E47D4A /* ZLGImageRecognizeSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLGImageRecognizeSDK.xcconfig; sourceTree = "<group>"; };
+		A464C89E5C918C146C267A7394383056 /* ZLGImageRecognizeSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLGImageRecognizeSDK-Info.plist"; sourceTree = "<group>"; };
+		A9B90B86563B15712CD5473408524EDF /* ZLGImageRecognizeSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLGImageRecognizeSDK.modulemap; sourceTree = "<group>"; };
 		A9CB764FE2D67691814BB2E982620494 /* Pods-ZLGImageRecognizeSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLGImageRecognizeSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF70ECAFCAB296498169E06131BFFC19 /* IdcardQuality.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IdcardQuality.framework; path = ZLGImageRecognizeSDK/Classes/framework/IdcardQuality.framework; sourceTree = "<group>"; };
-		BF8E08B4CCA4FCD486736B7EF8D8AC8C /* ZLGImageRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLGImageRecognition.h; path = ZLGImageRecognizeSDK/Classes/ZLGImageRecognition.h; sourceTree = "<group>"; };
 		C1D0F13CC588874D8DE88B742DE4E626 /* Pods-ZLGImageRecognizeSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLGImageRecognizeSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		D0D77E4B5454BC9CD7CA0B695F055FEB /* ZLGImageRecognizeSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLGImageRecognizeSDK.xcconfig; sourceTree = "<group>"; };
-		D49CFB8D53469F48D434446490419CAD /* ZLGImageRecognizeSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLGImageRecognizeSDK-dummy.m"; sourceTree = "<group>"; };
+		C3DB96E209B0AEE86CF102293448D4B4 /* ZLGImageRecognizeSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLGImageRecognizeSDK-prefix.pch"; sourceTree = "<group>"; };
+		C4891E410EB099A79E0C8C9CD9867518 /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipOcrSdk.framework; path = ZLGImageRecognizeSDK/Classes/framework/AipOcrSdk.framework; sourceTree = "<group>"; };
+		D2FA642A8AE42D8AE7DADEF119B5A524 /* ZLGImageRecognizeSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLGImageRecognizeSDK-dummy.m"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E3869F8F1BE0AB40DCACEA7FA4637843 /* Pods-ZLGImageRecognizeSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLGImageRecognizeSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E5B833572F6BC6E4D2806765F03BB73A /* ZLGImageRecognizeSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLGImageRecognizeSDK.modulemap; sourceTree = "<group>"; };
+		E6FC7D498607E2A58E3BEFAFAD1C0CDE /* ZLGImageRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLGImageRecognition.h; path = ZLGImageRecognizeSDK/Classes/ZLGImageRecognition.h; sourceTree = "<group>"; };
+		E83784D7A1444E8F1A62B513CB49CB2E /* ZLGImageRecognition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLGImageRecognition.m; path = ZLGImageRecognizeSDK/Classes/ZLGImageRecognition.m; sourceTree = "<group>"; };
 		EBDCC132818D29FED516B3B7457B5294 /* Pods-ZLGImageRecognizeSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLGImageRecognizeSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE29510B7668418EE7C9B43428E18430 /* ZLGImageRecognition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLGImageRecognition.m; path = ZLGImageRecognizeSDK/Classes/ZLGImageRecognition.m; sourceTree = "<group>"; };
 		F802E29CDFE5CDA9EF2C12286704DB0F /* Pods-ZLGImageRecognizeSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLGImageRecognizeSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		FB97BDD413F519847C319BD0415AF80E /* ZLGImageRecognizeSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLGImageRecognizeSDK-Info.plist"; sourceTree = "<group>"; };
+		FD092D684284C29FAE5232DC156660F2 /* IdcardQuality.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IdcardQuality.framework; path = ZLGImageRecognizeSDK/Classes/framework/IdcardQuality.framework; sourceTree = "<group>"; };
 		FEDC74D1E1E66C57017A9F5CAC5923B2 /* Pods-ZLGImageRecognizeSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLGImageRecognizeSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FF02AB11B5014AEED42A38D77B976FC4 /* Pods-ZLGImageRecognizeSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLGImageRecognizeSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,14 +117,6 @@
 			path = "Target Support Files/Pods-ZLGImageRecognizeSDK_Tests";
 			sourceTree = "<group>";
 		};
-		1DAB77EEBAC34CDC5EB8D05EB0860C80 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				86A0ED05F883B6FC71534599F12EA5C7 /* ZLGImageRecognizeSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		1FF9FE099FD1C8FE1827512688128220 /* Pods-ZLGImageRecognizeSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,38 +152,45 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6CB21E2986AE1FC7EE09B63397F3F198 /* ZLGImageRecognizeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E6FC7D498607E2A58E3BEFAFAD1C0CDE /* ZLGImageRecognition.h */,
+				E83784D7A1444E8F1A62B513CB49CB2E /* ZLGImageRecognition.m */,
+				A449957634098A3598D53C81BA3594FC /* Frameworks */,
+				C39DB70382E0951D6F4F20F49E536A56 /* Support Files */,
+			);
+			name = ZLGImageRecognizeSDK;
+			path = ZLGImageRecognizeSDK;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				1DAB77EEBAC34CDC5EB8D05EB0860C80 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A8AB827770E559DEDE39832B302C3A3A /* Pods */,
 				5FE2A5CC456FABD070EEC454A2F87BF8 /* Products */,
 				F8805D2BEC627187801C55B7DC16977A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86A0ED05F883B6FC71534599F12EA5C7 /* ZLGImageRecognizeSDK */ = {
+		A449957634098A3598D53C81BA3594FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF8E08B4CCA4FCD486736B7EF8D8AC8C /* ZLGImageRecognition.h */,
-				EE29510B7668418EE7C9B43428E18430 /* ZLGImageRecognition.m */,
-				BF362523A244AAC1C651748DEE5FA4E0 /* Frameworks */,
-				B6AD55EC8094405F29AF592441EDAA29 /* Pod */,
-				C37B76714F9BB22EE5AD0DA96EF84400 /* Support Files */,
+				75A2BDF65F2175F87B14F1BC590AEF44 /* AipBase.framework */,
+				C4891E410EB099A79E0C8C9CD9867518 /* AipOcrSdk.framework */,
+				FD092D684284C29FAE5232DC156660F2 /* IdcardQuality.framework */,
 			);
-			name = ZLGImageRecognizeSDK;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B6AD55EC8094405F29AF592441EDAA29 /* Pod */ = {
+		A8AB827770E559DEDE39832B302C3A3A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				42EBFAAF2CB0F7E8FD9B19537C4B99F5 /* LICENSE */,
-				4DDD6689A525F8C24212EBBA7F2B4286 /* README.md */,
-				036AED5B1A84B0453FC64CDF7DA1C370 /* ZLGImageRecognizeSDK.podspec */,
+				6CB21E2986AE1FC7EE09B63397F3F198 /* ZLGImageRecognizeSDK */,
 			);
-			name = Pod;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -205,28 +201,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF362523A244AAC1C651748DEE5FA4E0 /* Frameworks */ = {
+		C39DB70382E0951D6F4F20F49E536A56 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6801BF4934B3D4B73B5E97851CB9C2D9 /* AipBase.framework */,
-				A0CD8147D1F179E1E9EDB4034F917E5F /* AipOcrSdk.framework */,
-				BF70ECAFCAB296498169E06131BFFC19 /* IdcardQuality.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C37B76714F9BB22EE5AD0DA96EF84400 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E5B833572F6BC6E4D2806765F03BB73A /* ZLGImageRecognizeSDK.modulemap */,
-				D0D77E4B5454BC9CD7CA0B695F055FEB /* ZLGImageRecognizeSDK.xcconfig */,
-				D49CFB8D53469F48D434446490419CAD /* ZLGImageRecognizeSDK-dummy.m */,
-				FB97BDD413F519847C319BD0415AF80E /* ZLGImageRecognizeSDK-Info.plist */,
-				886926FEAD5A59C7203F7781336FC8D1 /* ZLGImageRecognizeSDK-prefix.pch */,
-				75F98E032AC99012621B1CA35AB96C8C /* ZLGImageRecognizeSDK-umbrella.h */,
+				A9B90B86563B15712CD5473408524EDF /* ZLGImageRecognizeSDK.modulemap */,
+				90D900FEB7831E2229488B4D50E47D4A /* ZLGImageRecognizeSDK.xcconfig */,
+				D2FA642A8AE42D8AE7DADEF119B5A524 /* ZLGImageRecognizeSDK-dummy.m */,
+				A464C89E5C918C146C267A7394383056 /* ZLGImageRecognizeSDK-Info.plist */,
+				C3DB96E209B0AEE86CF102293448D4B4 /* ZLGImageRecognizeSDK-prefix.pch */,
+				59A4AB96C777B47A5BD925C81D6ACFFC /* ZLGImageRecognizeSDK-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZLGImageRecognizeSDK";
+			path = "../Target Support Files/ZLGImageRecognizeSDK";
 			sourceTree = "<group>";
 		};
 		F8805D2BEC627187801C55B7DC16977A /* Targets Support Files */ = {
@@ -456,7 +442,7 @@
 		};
 		470FFFDFF0643911D1D79EDC86B073B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0D77E4B5454BC9CD7CA0B695F055FEB /* ZLGImageRecognizeSDK.xcconfig */;
+			baseConfigurationReference = 90D900FEB7831E2229488B4D50E47D4A /* ZLGImageRecognizeSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -677,7 +663,7 @@
 		};
 		EF524A2261BD1413D1232C814D2EA853 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0D77E4B5454BC9CD7CA0B695F055FEB /* ZLGImageRecognizeSDK.xcconfig */;
+			baseConfigurationReference = 90D900FEB7831E2229488B4D50E47D4A /* ZLGImageRecognizeSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

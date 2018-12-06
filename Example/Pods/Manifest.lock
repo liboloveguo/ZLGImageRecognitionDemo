@@ -2,15 +2,15 @@ PODS:
   - ZLGImageRecognizeSDK (0.0.1)
 
 DEPENDENCIES:
-  - ZLGImageRecognizeSDK (from `../`)
+  - ZLGImageRecognizeSDK
 
-EXTERNAL SOURCES:
-  ZLGImageRecognizeSDK:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ZLGImageRecognizeSDK
 
 SPEC CHECKSUMS:
   ZLGImageRecognizeSDK: 5e20dc9664bffc70e3dd8fd4111ffd18727a4497
 
-PODFILE CHECKSUM: c8592d7ba2c9fd08de737cb70aa1498f0345f08d
+PODFILE CHECKSUM: b31760591f7a98c00475eddb1fa4be13bb7fbe8e
 
 COCOAPODS: 1.6.0.beta.2

@@ -21,7 +21,7 @@
     
     [self UI];
     
-    [self selectImageCallBack];
+//    [self selectImageCallBack];
     
 //    [self localImageCallBack];
 }
@@ -153,11 +153,31 @@
 
 //显示返回结果
 -(void) UI {
+    
+    //
+    UIButton *button1 = [[UIButton alloc]initWithFrame:CGRectMake(50, 100, 100, 40)];
+    button1.titleLabel.font = [UIFont systemFontOfSize:13];
+    [button1 setTitle:@"本地图片识别" forState:UIControlStateNormal];
+    [button1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    button1.backgroundColor = [UIColor lightGrayColor];
+    [button1 addTarget:self action:@selector(localImageCallBack) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button1];
+    
+    //
+    UIButton *button2 = [[UIButton alloc]initWithFrame:CGRectMake(CGRectGetMaxX(button1.frame)+20, 100, 170, 40)];
+    button2.titleLabel.font = [UIFont systemFontOfSize:13];
+    [button2 setTitle:@"从相册或相机取图片识别" forState:UIControlStateNormal];
+    [button2 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    button2.backgroundColor = [UIColor lightGrayColor];
+    [button2 addTarget:self action:@selector(selectImageCallBack) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button2];
+    
     self.textView = [[UITextView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width-150, [UIScreen mainScreen].bounds.size.height*0.5)];
     self.textView.font = [UIFont systemFontOfSize:15];
     self.textView.textColor = [UIColor blackColor];
     self.textView.center = self.view.center;
     [self.view addSubview:self.textView];
+    
 }
 
 - (void)didReceiveMemoryWarning
